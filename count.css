@@ -1,0 +1,39 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(count1.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+p{
+    font-size: 17px;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 20px;
+
+}
+.newyear{
+    padding: 20px;
+    font-size: 40px;
+}
+.counter .box{
+    padding: 40px;
+}
+.box h2{
+    text-align: center;
+}
